@@ -89,7 +89,7 @@ module.exports = async (req, res) => {
       session_state: {
         // Можно сохранять пользовательские данные, если необходимо
       },
-      version: '1.0.0',
+      version: '1.0',
     });
 
   } catch (error) {
@@ -100,7 +100,7 @@ module.exports = async (req, res) => {
         text: 'Извините, произошла временная ошибка. Попробуйте позже.',
         end_session: false,
       },
-      version: '1.0.0',
+      version: '1.0',
     });
   }
 };
