@@ -33,7 +33,7 @@ module.exports = async (req, res) => {
           text: 'Привет! Я умный помощник на базе AIAI. Спросите меня о чём-нибудь.',
           end_session: false,
         },
-        version: '1.0.0',
+        version: '1.0',
       });
     }
 
