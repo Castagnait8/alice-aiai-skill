@@ -1,0 +1,12 @@
+{
+  "name": "alice-aiai-skill",
+  "version": "1.0.0",
+  "description": "Yandex Alice skill powered by AIAI.BY",
+  "main": "api/webhook.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
