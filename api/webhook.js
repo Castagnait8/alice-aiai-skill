@@ -56,7 +56,7 @@ module.exports = async (req, res) => {
         'Authorization': `Bearer ${AIAI_API_KEY}`,
       },
       body: JSON.stringify({
-        model: 'qwen3.7-flash', // Можно заменить на нужную модель, например claude-sonnet-4-20250514
+        model: 'gemini-2.5-flash-lite', // Можно заменить на нужную модель, например claude-sonnet-4-20250514
         messages: messages,
         temperature: 0.7,
         max_tokens: 500,
